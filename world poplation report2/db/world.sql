@@ -9,4 +9,4 @@ CREATE TABLE country (
     Continent VARCHAR(50),
     Region VARCHAR(50),
     Population INT
-); 
+);  
