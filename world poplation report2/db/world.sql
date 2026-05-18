@@ -1,4 +1,5 @@
 ﻿CREATE DATABASE world;
+-- database setup
 
 USE world;
 
