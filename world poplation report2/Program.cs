@@ -1,10 +1,11 @@
-﻿using System;
+﻿CREATE DATABASE world;
 
-class Program
-{
-    static void Main(string[] args)
-    {
-        Console.WriteLine("World Population Reporting System");
-        Console.WriteLine("Software Engineering Methods Project");
-    }
-}
+USE world;
+
+CREATE TABLE country (
+    CountryCode CHAR(3) PRIMARY KEY,
+    CountryName VARCHAR(52),
+    Continent VARCHAR(50),
+    Region VARCHAR(50),
+    Population BIGINT
+);
