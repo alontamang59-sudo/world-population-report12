@@ -40,8 +40,3 @@ The Population Reporting System is a software engineering project developed usin
 - `tests/` → Unit testing files
 
 ---
-
-## Installation Guide
-1. Clone the repository:
-```bash
-git clone https://github.com/your-repository-link.git
