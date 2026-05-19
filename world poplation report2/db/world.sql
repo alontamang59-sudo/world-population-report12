@@ -1,12 +1,14 @@
-﻿CREATE DATABASE world;
--- database setup
+﻿-- Create the database if it doesn't already exist
+CREATE DATABASE IF NOT EXISTS world_db;
 
-USE world;
+-- Select the database
+USE world_db;
 
-CREATE TABLE country (
-    Code CHAR(3) PRIMARY KEY,
-    Name VARCHAR(52),
-    Continent VARCHAR(50),
-    Region VARCHAR(50),
-    Population INT
-);    
+-- Create the country table
+CREATE TABLE IF NOT EXISTS countries (
+    country_code CHAR(3) PRIMARY KEY,
+    country_name VARCHAR(52) NOT NULL,
+    continent VARCHAR(50),
+    region_name VARCHAR(50),
+    population BIGINT
+);
